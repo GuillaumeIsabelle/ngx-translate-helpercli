@@ -10,6 +10,6 @@ yarn global add ngx-translate-helpercli
 # Usage: 
 ```sh
 
-ngx-translate-helpercli newstring "Hello world of software developper."    "HOME.TST" 
+ngxtr newstring "Hello world of software developper."    "HOME.TST" 
 ```
 
