@@ -2,6 +2,7 @@
 Command line Helper for creating multi-cultural site using Angular NGX-Translate
 
 
+
 ## Installing w .bashrc Alias
 
 ```sh
@@ -16,6 +17,12 @@ npm i ngx-translate-helpercli --save-dev
 yarn add ngx-translate-helpercli --dev
 ```
 
+## Dependencies
+* Google TRanslate API
+```sh
+#.bashrc or other setting environment
+export GOOGLE_APPLICATION_CREDENTIALS="/home/jgi/x/etc/gcp-8dfpa434575.json"
+```
 
 
 ---
