@@ -5,7 +5,7 @@
 cd && \
 mkdir -p apps/ngxtr && cd $_ && npm init --y 
 
-( npm i ngx-translate-helpercli --save)&)
+( npm i ngx-translate-helpercli --save &)
 
 echo 'alias newstring="~/apps/ngxtr/node_modules/.bin/ngx-translate-helpercli newstring "'>>~/.bashrc && \
 echo 'alias ngxtr="~/apps/ngxtr/node_modules/.bin/ngx-translate-helpercli "'>>~/.bashrc &&\
