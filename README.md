@@ -2,10 +2,12 @@
 Command line Helper for creating multi-cultural site using Angular NGX-Translate
 
 
-## Installing + alias into .bashrc
+## Installing w .bashrc Alias
 
 ```sh
 curl -s 'https://raw.githubusercontent.com/GuillaumeIsabelle/ngx-translate-helpercli/master/install-bashrc.sh' | bash 
+#result alias: newstring
+#result alias: ngxtr
 ```
 
 ## Install Dev

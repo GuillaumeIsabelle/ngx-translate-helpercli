@@ -30,11 +30,8 @@ exports.default = {
     cmd: __filename,
     args: ['txt', 'target'],
     options: [
-        ['-f','--force', 'Override it!'],
-        ['-v','--verbose', 'verbose'],
-        ['--port','--port comport com4', 'Select your COMPort.'],
-        ['-t','--source','English text source to translate'],
-        ['-l','--lang','target language']
+       
+        ['-v','--verbose', 'verbose']
     ],
     description: 'Add a new string to all translation files.\n--------------------------------\n'
         + '#> transapp newstring "hello world" "HOME.GREETING"'
