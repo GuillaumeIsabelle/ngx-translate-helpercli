@@ -5,7 +5,7 @@
 cd && \
 mkdir -p apps/ngxtr && cd $_ && npm init --y 
 
-( cd ~/apps/ngxtr && npm i ngx-translate-helpercli --save ) &
+(( cd ~/apps/ngxtr && npm i ngx-translate-helpercli --save ; sleep 15;) &)
 
 sleep 3;
 cd &&\
