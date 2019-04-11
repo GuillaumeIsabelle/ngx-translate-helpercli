@@ -1,19 +1,20 @@
 # ngx-translate-helpercli
 Command line Helper for creating multi-cultural site using Angular NGX-Translate
 
-# Install
-```sh
-npm i ngx-translate-helpercli --save-dev
-yarn add ngx-translate-helpercli --dev
-```
-
----
 
 ## Installing + alias into .bashrc
 
 ```sh
 curl -s 'https://raw.githubusercontent.com/GuillaumeIsabelle/ngx-translate-helpercli/master/install-bashrc.sh' | bash 
 ```
+
+## Install Dev
+```sh
+npm i ngx-translate-helpercli --save-dev
+yarn add ngx-translate-helpercli --dev
+```
+
+
 
 ---
 
