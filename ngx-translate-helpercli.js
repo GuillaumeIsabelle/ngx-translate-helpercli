@@ -3,10 +3,8 @@
 const CMD = require('cmd-line').default;
 var p = require( __dirname + '/package.json');
 
-console.log(`
-${p.name}
-by: ${p.author}
-`);
+console.log(`${p.name} \t\tby: ${p.author}
+-----------------------------`);
 
 //@expecting tranapp newstring "Hello world" "HOME.DUMMY" 
 const cmdnewstring = new CMD('newstring'); //@s located into ./commands/newstring.js
