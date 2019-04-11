@@ -29,8 +29,7 @@ var i18nroot =path.join(currentPath, "/src/assets/i18n" );
 exports.default = {
     cmd: __filename,
     args: ['txt', 'target'],
-    options: [
-       
+    options: [       
         ['-v','--verbose', 'verbose']
     ],
     description: 'Add a new string to all translation files.\n--------------------------------\n'
