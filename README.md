@@ -1,9 +1,15 @@
 # ngx-translate-helpercli
 Command line Helper for creating multi-cultural site using Angular NGX-Translate
 
-# Usage: 
-```bash
+# Install
+```sh
+npm i ngx-translate-helpercli --g
+yarn global add ngx-translate-helpercli
+```
 
-node ../ngx-translate-helpercli.js newstring "Hello world of software developper."    "HOME.TST" 
+# Usage: 
+```sh
+
+ngx-translate-helpercli newstring "Hello world of software developper."    "HOME.TST" 
 ```
 
