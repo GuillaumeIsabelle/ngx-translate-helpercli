@@ -1,6 +1,6 @@
 {
   "name": "ngx-translate-helpercli",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Command line Helper for creating multi-cultural site using Angular NGX-Translate",
   "main": "ngx-translate-helpercli.js",
   "scripts": {
