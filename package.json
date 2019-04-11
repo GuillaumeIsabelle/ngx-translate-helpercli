@@ -1,13 +1,14 @@
 {
   "name": "ngx-translate-helpercli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Command line Helper for creating multi-cultural site using Angular NGX-Translate",
   "main": "ngx-translate-helpercli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm version patch && npm run publish ; ginol \"Completed released package NGX-Tranlator done\" && git push"
   },
   "bin": {
-    "ngx-translate-helpercli": "ngx-translate-helpercli.js"
+    "ngxtr": "ngx-translate-helpercli.js"
   },
   "repository": {
     "type": "git",
