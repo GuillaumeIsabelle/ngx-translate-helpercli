@@ -1,0 +1,26 @@
+{
+  "CONTACT": {
+    "TITLE": "{{username}} Contáctenos con estos medios:"
+  },
+  "HELPSTART": "Aquí hay algunos enlaces para ayudarte a comenzar:",
+  "HOME": {
+    "HELLO": "Bienvenido, intentemos ngx-translate",
+    "MSG": "Bienvenidos a esta fantástica traducción. Usar el Editor BabelEdit es genial. Tienes tus 3 cadenas en una sola página.",
+    "TITLE": "Bienvenido a ",
+    "TOURHEROES": "Tour das heroes",
+    "DOC": "Documentazion",
+    "FOOTER": {
+      "MYNOTES": "hola mundo es mucho más que un simple \"hola\" y eso nunca cambiará"
+    },
+    "CLI": "Hola mundo de las herramientas de línea de comandos. Traducir la automatización es una forma óptima de crear extensión cultural.",
+    "TEST": "Hola worldd de desarrollo de software.",
+    "TST": "Hola mundo del desarrollador de software, innovador."
+  },
+  "LANG": {
+    "NAME": "Spanish"
+  },
+  "WELCOME": "Bienvenido {{name}}",
+  "TEST": {
+    "DOSOMETHING": "hacer algo"
+  }
+}
