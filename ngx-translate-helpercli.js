@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const CMD = require('cmd-line').default;
-var p = require('package.json');
+var p = require( __dirname + '/package.json');
 
 console.log(`
 ${p.name}
