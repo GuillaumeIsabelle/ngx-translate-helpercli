@@ -33,7 +33,7 @@ exports.default = {
         ['-v','--verbose', 'verbose']
     ],
     description: 'Add a new string to all translation files.\n--------------------------------\n'
-        + '#> transapp newstring "hello world" "HOME.GREETING"'
+        + '#> ngxtr newstring "hello world" "HOME.GREETING"'
     ,
     action: (txt, target,options) => {
         return new Promise(function (resolve, reject) {
