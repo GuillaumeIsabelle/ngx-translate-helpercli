@@ -1,12 +1,12 @@
 {
   "name": "ngx-translate-helpercli",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Command line Helper for creating multi-cultural site using Angular NGX-Translate",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "npm version patch && npm run publish ; ginol \"Completed released package NGX-Tranlator done\" && git push",
-    "patch":"npm version patch && npm run publish"
+    "patch": "npm version patch && npm run publish"
   },
   "bin": {
     "ngxtr": "index.js"
