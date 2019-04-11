@@ -15,3 +15,12 @@ yarn add ngx-translate-helpercli --dev
 ./node_modules/.bin/ngxtr newstring "Hello world of software developper."    "HOME.TST" 
 ```
 
+# Expected result:
+```json
+ {
+  "HOME": {
+   
+    "TST": "Bonjour tout le monde du développeur de logiciels.",
+    "GREETING": "Bonjour à tous, bienvenue dans cette application angulaire présentant la maîtrise de la traduction."
+  },
+  ```
