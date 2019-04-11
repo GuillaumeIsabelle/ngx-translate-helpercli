@@ -44,7 +44,7 @@ exports.default = {
         if (options.verbose) verbose = options.verbose;
 
           if (verbose > -1)  {console.log("New Translated Text String  :\n\t " + txt);
-            console.log("Namespace Target : \n\t" + target);}
+            console.log("Namespace Target : \t" + target);}
            // console.log(options);
 
 
